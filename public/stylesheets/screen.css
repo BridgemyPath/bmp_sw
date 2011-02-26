@@ -1,9 +1,12 @@
 * {
-  color: grey; 
+  color: #444446;
 }
-
+/*
+charcoal: #444446
+green: #afcc49
+*/
 h1 {
-  padding: 2em;
+  padding-bottom: 2em;
   font-size: 2em;
 }
 

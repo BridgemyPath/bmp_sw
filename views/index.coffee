@@ -1,4 +1,3 @@
-img src: "/images/bridge-my-path-logo-final.png", alt: "Bridge My Path"
 h1 class: "main_font", ->
   "Welcome to Bridge My Path"
 ul class: "main_font", ->

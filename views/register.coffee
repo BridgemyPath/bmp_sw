@@ -42,21 +42,6 @@ text '''    <!--[if IE]>
 	<a href="#" id="mc_embed_close" class="mc_embed_close" style="background: transparent url(http://bridgemypath.us2.list-manage1.com/images/closebox.png) no-repeat;display: none;height: 30px;width: 30px;text-indent: -999em;position: absolute;top: 10px;right: -10px;">Close</a>
 </form>
 </div>
-<script  type="text/javascript">
-try {
-    var jqueryLoaded=jQuery;
-    jqueryLoaded=true;
-} catch(err) {
-    var jqueryLoaded=false;
-}
-if (!jqueryLoaded) {
-    var head= document.getElementsByTagName('head')[0];
-    var script= document.createElement('script');
-    script.type= 'text/javascript';
-    script.src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
-    head.appendChild(script);    
-}
-</script>
 <script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.form-n-validate.js"></script>
 
 <script type="text/javascript">
@@ -183,7 +168,7 @@ $(document).ready(function(){
     }
     if (show){
 	    $('#mc_embed_signup a.mc_embed_close').show();
-	    setTimeout( function(){ $('#mc_embed_signup').fadeIn();} , 2000);
+	    setTimeout( function(){ $('#mc_embed_signup').fadeIn();} , 200);
     	$('#mc_embed_signup a.mc_embed_close').click(function(){ mcEvilPopupClose();});
     }
 });

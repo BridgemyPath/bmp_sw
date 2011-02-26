@@ -9,13 +9,14 @@ html lang: "en", ->
     meta name: "description", content: ""
     meta name: "copyright", content: "2011, Marshall P. Hayes"
     title "#{@title} | #{appName}" if @title?
+    script type: "text/javascript", src: "//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"
   body ->
+    img src: "/images/bridge-my-path-logo-final.png", alt: "Bridge My Path"
     div class: "content", ->
       text @body
     div class: "footer", ->
       hr
       text "Copyright &copy; 2011 Marshall P. Hayes"
-  script type: "text/javascript", src: "//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"
   script type: "text/javascript", src: "/javascripts/cufon-yui.js"
   script type: "text/javascript", src: "/javascripts/Arial_Rounded_MT_Bold_400.font.js"
   coffeescript ->
