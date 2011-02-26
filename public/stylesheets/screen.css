@@ -1,5 +1,6 @@
 * {
   color: #444446;
+  font-family: sans-serif;
 }
 /*
 charcoal: #444446
@@ -19,7 +20,7 @@ ul {
 }
 
 div.content {
-  margin: 4em; 
+  margin-left: 4em; 
 }
 
 div.footer {
