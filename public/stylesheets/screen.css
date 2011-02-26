@@ -1,3 +1,24 @@
+* {
+  color: grey; 
+}
+
+h1 {
+  padding: 2em;
+  font-size: 2em;
+}
+
 table.form {
   text-align: right;
+}
+
+ul {
+  list-style-type: circle; 
+}
+
+div.content {
+  margin: 4em; 
+}
+
+div.footer {
+  margin: 4em; 
 }

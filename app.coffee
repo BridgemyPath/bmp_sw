@@ -25,6 +25,9 @@ app.get '/', (req, res) ->
 app.get '/signup', (req, res) ->
   res.render 'signup', {locals: locals}
 
+app.get '/register', (req, res) ->
+  res.render 'register', {locals: locals}
+
 port = 9600
 util.debug "#{locals.appName} server starting on port #{port}"
 app.listen port

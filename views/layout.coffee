@@ -15,4 +15,8 @@ html lang: "en", ->
     div class: "footer", ->
       hr
       text "Copyright &copy; 2011 Marshall P. Hayes"
-
+  script type: "text/javascript", src: "//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"
+  script type: "text/javascript", src: "/javascripts/cufon-yui.js"
+  script type: "text/javascript", src: "/javascripts/Arial_Rounded_MT_Bold_400.font.js"
+  coffeescript ->
+    Cufon.replace '.main_font'
