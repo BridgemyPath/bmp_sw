@@ -88,11 +88,12 @@ div.content {
 
 /********** PATHS **********/
 div.path {
-  border: 1px solid #D5E0E2;
   padding: 0px;
-  height: 140px;
+  height: 147px;
+  width: 910px;
   margin-bottom: 40px;
   background-color: white;
+  background-image:url("/images/path-box.png");
 }
 
 .path_icon {

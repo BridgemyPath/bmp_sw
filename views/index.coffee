@@ -10,7 +10,7 @@ div class: "header", ->
         "or&nbsp;&nbsp;&nbsp;" 
 
     div id: "menu", ->
-      a href: "#", class: "nav main_font", style: "background-image:url('../images/home-active.png');", ->
+      a href: "#", class: "nav main_font", -># style: "background-image:url('../images/home-active.png');", ->
         "Home"
       a href: "#", class: "nav main_font", ->
         "How it Works"
