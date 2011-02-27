@@ -2,26 +2,27 @@ h1 class: "main_font", ->
   "Choose your Path!"
 div class: "path rounded", ->
   img class: "path_icon", src: "/images/book-icon.png", alt: "Write"
-  h1 class: "path_name main_font", ->
-    "Write"
-  img class: "path_steps", src: "/images/2-circle-bar.png", alt: "Path Nodes"
-  br
-  p
+  div class: "path_step_wrapper", ->
+    h1 class: "path_name main_font", ->
+      "Write"
+    img class: "path_steps", src: "/images/2-circle-bar.png", alt: "Path Nodes"
+    p "&nbsp;"
+    div class: "path_step_label first", ->
+      "Start your <br />work"
+    div class: "path_step_label", ->
+      "Write a <br />chapter"
+    div class: "path_step_label", ->
+      "Complete first <br />draft"
+    div class: "path_step_label", ->
+      "Edit your <br />book"
+    div class: "path_step_label", ->
+      "Publish your <br />book"
+    div class: "path_step_label", ->
+      "Win an <br />award"
   div class: "path_population", ->
     text "1078 Participants"
   a class: "join_path", href: "/join"
-  div class: "path_step_label first", ->
-    "Start your <br />work"
-  div class: "path_step_label", ->
-    "Write a <br />chapter"
-  div class: "path_step_label", ->
-    "Complete first <br />draft"
-  div class: "path_step_label", ->
-    "Edit your <br />book"
-  div class: "path_step_label", ->
-    "Publish your <br />book"
-  div class: "path_step_label", ->
-    "Win an <br />award"
+
 br
 
 ########## MAILCHIMP ##########

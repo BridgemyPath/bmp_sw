@@ -44,24 +44,30 @@ br {
 
 /********** PATHS **********/
 div.path {
-  border: 1px solid #444446;
-  padding: 10px;
-  min-height: 140px;
+  border: 1px solid #D5E0E2;
+  padding: 0px;
+  height: 140px;
 }
 
 .path_icon {
   left: -30px;
   position: relative;
-  top: -25px;
+  top: -15px;
   float: left;
   padding-left: 40px;
 }
 
 .path_steps {
   float: left;
+  clear: both;
   padding-left: 30px;
   padding-top: 15px;
   padding-bottom: 20px;
+}
+
+.path_step_wrapper {
+  display: inline;
+  float: left;
 }
 
 .path_step_label {
@@ -75,16 +81,17 @@ div.path {
 h1.path_name  {
   color: #81989d;
   font-size: 24px;
-  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
   margin: 0px;
-  clear: right;
 }
 
 .path_population {
   float: right;
   clear: right;
   font-style: italic;
-  padding-bottom: 10px;
+  padding-top: 22px;
+  margin-right: 10px;
 }
 
 a.join_path {
@@ -92,6 +99,8 @@ a.join_path {
   clear: right;
   width: 140px;
   height: 40px;
+  margin-top: 8px;
+  margin-right: 10px;
   background-image:url("/images/join-button.png");
 }
 
