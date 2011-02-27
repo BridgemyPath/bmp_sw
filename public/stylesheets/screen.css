@@ -123,6 +123,14 @@ input {
   margin-bottom: 10px;
 }
 
+#count_me_in {
+   height: 39px;
+   width: 170px;
+   background: url("../images/count-me-in-button.png") no-repeat;
+   margin-left: 20px;
+   margin-top: 8px;
+}
+
 /********** PATHS **********/
 div.path {
   padding: 0px;
@@ -311,7 +319,7 @@ p.login_link {
 }
 
 .footer_social {
-  background: url(../images/tweet-bubble.png") no-repeat;
+  background: url(../images/tweet-bubble.png) no-repeat;
   float: right;  
   font-size: 12px;
   line-height: 16px;
