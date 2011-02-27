@@ -1,7 +1,7 @@
 /********** SHARED **********/
 .rounded {
   -moz-border-radius: 10px;
-  -webkit-border-radius: 1[px;
+  -webkit-border-radius: 1px;
   border-radius: 10px;
 }
 
