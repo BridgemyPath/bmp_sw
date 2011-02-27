@@ -3,7 +3,7 @@ html lang: "en", ->
   head ->
     meta charset: "utf-8"
     comment "#{appName} Version: #{version}"
-    link rel: "stylesheet", href: "/stylesheets/reset.css", type:"text/css"
+    #link rel: "stylesheet", href: "/stylesheets/reset.css", type:"text/css"
     link rel: "stylesheet", href: "/stylesheets/screen.css", type:"text/css"
     meta name: "keywords", content: "mentor guidance path bridge learn coach achieve"
     meta name: "description", content: ""

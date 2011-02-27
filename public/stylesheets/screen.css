@@ -1,3 +1,10 @@
+/********** SHARED **********/
+.rounded {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 1[px;
+  border-radius: 10px;
+}
+
 body {
   color: #444446;
   font-family: arial, helvetica, sans-serif;
@@ -21,12 +28,16 @@ ul {
 }
 
 div.content {
-  margin-left: 4em; 
+  margin-left: 4em;
+  width: 920px;
+  margin: 0px auto;
 }
 
 div.footer {
+  padding-top: 50px;
   margin: 4em; 
 }
+
 div.page
 {
 background:url("../images/bridge-my-path-hompage.v1-reference.png");
@@ -65,3 +76,65 @@ text-decoration:none;
 }
 #menu ul a:hover {
 .login{float: right; }
+
+
+br {
+  clear: both;
+}
+
+/********** PATHS **********/
+div.path {
+  border: 1px solid #444446;
+  padding: 10px;
+  min-height: 140px;
+}
+
+.path_icon {
+  left: -30px;
+  position: relative;
+  top: -20px;
+  float: left;
+  padding-left: 40px;
+}
+
+.path_steps {
+  float: left;
+  padding-left: 30px;
+}
+
+.path_step_label {
+  font-size: 14px;
+  color: #444446;
+  text-align: center;
+  float: left;
+  width: 90px;
+}
+
+.first {
+}
+
+span.path_name  {
+  color: #81989d;
+  font-size: 24px;
+  padding-bottom: 0px;
+}
+
+.path_population {
+  float: right;
+  clear: right;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+a.join_path {
+  float: right;
+  clear: right;
+  width: 140px;
+  height: 40px;
+  background-image:url("/images/join-button.png");
+}
+
+a.join_path:hover {
+  background-position: bottom;
+}
+

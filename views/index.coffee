@@ -1,13 +1,30 @@
 h1 class: "main_font", ->
-  "Welcome to Bridge My Path"
-ul class: "main_font", ->
-  li "Choose your path"
-  li "Benefit and learn from others who have been down your path"
-  li "As you advance, help others do what you have done"
-  
-a id: "register", href: "#", ->
-  "Sign up for #{appName}"
-  
+  "Choose your Path!"
+div class: "path rounded", ->
+  img class: "path_icon", src: "/images/book-icon.png", alt: "Write"
+  span class: "path_name main_font", ->
+    "Write"
+  img class: "path_steps", src: "/images/2-circle-bar.png", alt: "Path Nodes"
+  br
+  p
+  div class: "path_population", ->
+    text "1078 Participants"
+  a class: "join_path", href: "/join"
+  div class: "path_step_label first", ->
+    "Start your <br />work"
+  div class: "path_step_label", ->
+    "Write a <br />chapter"
+  div class: "path_step_label", ->
+    "Complete first <br />draft"
+  div class: "path_step_label", ->
+    "Edit your <br />book"
+  div class: "path_step_label", ->
+    "Publish your <br />book"
+  div class: "path_step_label", ->
+    "Win an <br />award"
+br
+
+########## MAILCHIMP ##########
 text '''    <!--[if IE]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
