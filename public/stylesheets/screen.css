@@ -45,7 +45,7 @@ img {
 
 /********** HEADER **********/
 div.header {
-  background: url(../images/header-bg.png")  repeat-x scroll center top transparent;
+  background: url(../images/header-bg.png)  repeat-x scroll center top transparent;
   border-bottom : #afcc49 5px solid;
 }
 a.register {
@@ -126,7 +126,7 @@ input {
 #count_me_in {
    height: 39px;
    width: 170px;
-   background: url("../images/count-me-in-button.png") no-repeat;
+   background: url(../images/count-me-in-button.png) no-repeat;
    margin-left: 20px;
    margin-top: 8px;
 }
@@ -250,7 +250,7 @@ span.quote {
 #count_me_in {
    height: 40px;
    width: 170px;
-   background: url(../images/count-me-in-button.png") no-repeat;
+   background: url(../images/count-me-in-button.png) no-repeat;
    margin-left: 20px;
    margin-top: 8px;
 }
