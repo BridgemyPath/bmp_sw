@@ -5,12 +5,17 @@
   border-radius: 10px;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   color: #444446;
   font-family: arial, helvetica, sans-serif;
   background-image:url("/images/background-pattern.png");
   margin: 0px;
   padding: 0px;
+  height: 100%;
 }
 /*
 charcoal: #444446
@@ -23,6 +28,14 @@ h1 {
 
 table.form {
   text-align: right;
+}
+
+/********** WRAPPER FOR STICKY FOOTER **********/
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -170px;
 }
 
 /********** HEADER **********/
@@ -92,7 +105,6 @@ div.path {
   height: 147px;
   width: 910px;
   margin-bottom: 40px;
-  background-color: white;
   background-image:url("/images/path-box.png");
 }
 
@@ -147,7 +159,7 @@ a.join_path {
   width: 140px;
   height: 40px;
   margin-top: 8px;
-  margin-right: 10px;
+  margin-right: 8px;
   background-image:url("/images/join-button.png");
 }
 
@@ -156,8 +168,70 @@ a.join_path:hover {
 }
 
 /********** FOOTER **********/
-div.footer {
-  padding-top: 50px;
+
+.push {
+  height: 170px;
+}
+
+.footer {
+  height: 150px;
+  width: 100%;
   text-align: center;
-  padding-bottom: 20px;
+  background-image:url("/images/footer-bg.png");
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer_nav {
+  width: 50%;
+  float: left;
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer_social {
+  background: url("/images/tweet-bubble.png") no-repeat;
+  float: right;  
+  font-size: 12px;
+  line-height: 16px;
+  width: 334px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.footer_social a {
+  color: #81989d;
+  text-decoration: none;
+}
+
+#twitter_button a {
+  float: left;
+  width: 95px;
+  height: 24px;
+  background: url(../images/twitter-button.png) no-repeat;
+  color: #396078;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-indent: 28px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+#facebook_button a {
+  float: left;
+  width: 95px;
+  height: 24px;
+  background: url(../images/facebook-button.png) no-repeat;
+  color: #396078;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-indent: 28px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+#twitter_button a:hover, #facebook_button a: hover {
+  background-position: bottom;
 }

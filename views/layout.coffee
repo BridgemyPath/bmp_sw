@@ -11,10 +11,34 @@ html lang: "en", ->
     title "#{@title} | #{appName}" if @title?
     script type: "text/javascript", src: "//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"
   body ->
-    text @body
-    div class: "footer content", ->
-      hr
-      text "Copyright &copy; 2011 Marshall P. Hayes"
+    div class: "wrapper", ->
+      text @body
+      div class: "push"
+      div class: "footer", ->
+        div class: "content", ->
+          div class: "footer_nav", ->
+            p ->
+              """Where are you going? What path are you traveling? Benefit and 
+              learn from those that have been down that path. As you advance,
+              help those that are following behind you."""
+            a href: "#", class: "nav main_font", -># style: "background-image:url('../images/home-active.png');", ->
+              "Home |"
+            a href: "#", class: "nav main_font", ->
+              "How it Works |"
+            a href: "#", class: "nav main_font", ->
+              "About |"
+            a href: "#", class: "nav main_font", ->
+              "Contact Us"
+          div class: "footer_social", ->
+            a class: "tweet_text", href: "http://twitter.com/#!/bridgemypath", ->
+              "Just launched Bridge my Path at Startup Weekend Boulder. Woo Hoo!"
+            p "2 hours ago via web"
+            div id: "twitter_button", ->
+              a href: "http://twitter.com/#!/bridgemypath", ->
+                "Follow Us"
+            div id: "facebook_button", ->
+              a href: "http://www.facebook.com/pages/BridgeMyPath/191731860857359", ->
+                "Become a Fan"
   script type: "text/javascript", src: "/javascripts/cufon-yui.js"
   script type: "text/javascript", src: "/javascripts/Arial_Rounded_MT_Bold_400.font.js"
   coffeescript ->
