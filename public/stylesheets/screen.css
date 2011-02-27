@@ -52,7 +52,7 @@ div.path {
 .path_icon {
   left: -30px;
   position: relative;
-  top: -20px;
+  top: -25px;
   float: left;
   padding-left: 40px;
 }
@@ -60,6 +60,8 @@ div.path {
 .path_steps {
   float: left;
   padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .path_step_label {
@@ -70,13 +72,12 @@ div.path {
   width: 90px;
 }
 
-.first {
-}
-
-span.path_name  {
+h1.path_name  {
   color: #81989d;
   font-size: 24px;
-  padding-bottom: 0px;
+  padding: 0px;
+  margin: 0px;
+  clear: right;
 }
 
 .path_population {

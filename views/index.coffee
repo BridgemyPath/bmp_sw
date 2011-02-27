@@ -2,7 +2,7 @@ h1 class: "main_font", ->
   "Choose your Path!"
 div class: "path rounded", ->
   img class: "path_icon", src: "/images/book-icon.png", alt: "Write"
-  span class: "path_name main_font", ->
+  h1 class: "path_name main_font", ->
     "Write"
   img class: "path_steps", src: "/images/2-circle-bar.png", alt: "Path Nodes"
   br
