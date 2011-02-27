@@ -18,7 +18,7 @@ html lang: "en", ->
             img class: "logoheader", width: "252", height: "86", src: "images/bridge-my-path-logo-final.png"
           div class: "login", ->
             a class: "register", href: "/register.html"
-            a href: "#", ->
+            a href: "/login.html", ->
               text "Login&nbsp;&nbsp;&nbsp;"
             font class: "or", ->
               "or&nbsp;&nbsp;&nbsp;" 

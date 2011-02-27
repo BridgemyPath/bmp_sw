@@ -22,8 +22,8 @@ app.set 'view options', {format: true}
 app.get '/', (req, res) ->
   res.render 'index', {locals: locals}
 
-app.get '/signup', (req, res) ->
-  res.render 'signup', {locals: locals}
+app.get '/login', (req, res) ->
+  res.render 'login', {locals: locals}
 
 app.get '/register', (req, res) ->
   res.render 'register', {locals: locals}

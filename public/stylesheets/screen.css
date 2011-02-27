@@ -12,7 +12,7 @@ html {
 body {
   color: #444446;
   font-family: arial, helvetica, sans-serif;
-  background-image:url("/images/background-pattern.png");
+  background-image:url(../images/background-pattern.png);
   margin: 0px;
   padding: 0px;
   height: 100%;
@@ -22,12 +22,17 @@ charcoal: #444446
 green: #afcc49
 */
 h1 {
+  padding-top: 15px;
   padding-bottom: 20px;
   font-size: 2em;
 }
 
 table.form {
   text-align: right;
+}
+
+img {
+  border: none;
 }
 
 /********** WRAPPER FOR STICKY FOOTER **********/
@@ -40,7 +45,7 @@ table.form {
 
 /********** HEADER **********/
 div.header {
-  background: url("../images/header-bg.png")  repeat-x scroll center top transparent;
+  background: url(../images/header-bg.png")  repeat-x scroll center top transparent;
   border-bottom : #afcc49 5px solid;
 }
 a.register {
@@ -48,7 +53,7 @@ a.register {
   height: 28px;
   float: right;
   clear: right;
-  background-image:url("../images/register-button.png");
+  background-image:url(../images/register-button.png);
 }
 
 a.register:hover {
@@ -110,20 +115,12 @@ label {
 
 input {
   border: none;
-  background: url("/images/input-field-bg.png") no-repeat;
+  background: url(../images/input-field-bg.png) no-repeat;
   height: 29px;
   width: 170px;
   margin-left: 20px;
   margin-top: 8px;
   margin-bottom: 10px;
-}
-
-#count_me_in {
-   height: 39px;
-   width: 170px;
-   background: url("/images/count-me-in-button.png") no-repeat;
-   margin-left: 20px;
-   margin-top: 8px;
 }
 
 /********** PATHS **********/
@@ -132,7 +129,7 @@ div.path {
   height: 147px;
   width: 910px;
   margin-bottom: 40px;
-  background-image:url("/images/path-box.png");
+  background-image:url(../images/path-box.png);
 }
 
 .path_icon {
@@ -187,7 +184,7 @@ a.join_path {
   height: 40px;
   margin-top: 8px;
   margin-right: 8px;
-  background-image:url("/images/join-button.png");
+  background-image:url(../images/join-button.png);
 }
 
 a.join_path:hover {
@@ -202,7 +199,7 @@ a.join_path:hover {
 }
 
 .register {
-  background-image: url(/images/register-box-bg.png);
+  background-image: url(../images/register-box-bg.png);
   width: 493px;
   height: 343px;
   margin: 0px auto;
@@ -231,15 +228,65 @@ a.join_path:hover {
   clear: both;
 }
 
-.quote {
+span.quote {
   color: #444446;
 }
 
 .register_divider {
-  background-image: url(/images/vertical-divider-register.png);
+  background-image: url(../images/vertical-divider-register.png);
   float: left;
   margin: 10px;
   margin-left: 50px;
+}
+
+#count_me_in {
+   height: 40px;
+   width: 170px;
+   background: url(../images/count-me-in-button.png") no-repeat;
+   margin-left: 20px;
+   margin-top: 8px;
+}
+
+#count_me_in:hover {
+  background-position: bottom;
+}
+
+/********** LOGIN **********/
+.login2 {
+  background-image: url(../images/login-box-bg.png);
+  width: 492px;
+  height: 304px;
+  margin: 0px auto;
+}
+
+#lets_do_this {
+   height: 40px;
+   width: 170px;
+   background: url(../images/login-button.png) no-repeat;
+   margin-left: 20px;
+   margin-top: 8px;
+}
+
+#lets_do_this:hover {
+  background-position: bottom;
+}
+
+.register_qoute p {
+  padding-bottom: 20px; 
+}
+
+.register_quote p a {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #81989d;
+}
+
+a.login_link:hover {
+  text-decoration: none
+}
+
+p.login_link {
+  margin: 20px; 
 }
 /********** FOOTER **********/
 
@@ -251,7 +298,7 @@ a.join_path:hover {
   height: 150px;
   width: 100%;
   text-align: center;
-  background-image:url("/images/footer-bg.png");
+  background-image:url(../images/footer-bg.png);
   margin: 0px;
   padding: 0px;
 }
@@ -264,7 +311,7 @@ a.join_path:hover {
 }
 
 .footer_social {
-  background: url("/images/tweet-bubble.png") no-repeat;
+  background: url(../images/tweet-bubble.png") no-repeat;
   float: right;  
   font-size: 12px;
   line-height: 16px;
