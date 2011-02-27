@@ -447,4 +447,19 @@ a.nav {
 a.nav span{ 
   color: white;
 }
->>>>>>> origin/master
+
+#mce-error-response {
+  color: #c02c2c;
+  float: left;
+  font-size: 18px;
+  padding-left: 20px;
+  width: 200px;
+}
+
+#mce-success-response {
+  color: #82a700;
+  float: left;
+  font-size: 18px;
+  padding-left: 20px;
+  width: 200px;
+}

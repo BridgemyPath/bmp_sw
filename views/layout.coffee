@@ -18,8 +18,8 @@ html lang: "en", ->
           a title: "bridge my path home", id: "logo", href: "/", ->
             img class: "logoheader", width: "252", height: "86", src: "images/bridge-my-path-logo-final.png"
           div class: "login", ->
-            a class: "register", href: "/register.html"
-            a class: "login-text", href: "/login.html", ->
+            a class: "register", href: "register.html"
+            a class: "login-text", href: "login.html", ->
               "Login"
             font class: "or", ->
               "or" 
@@ -61,7 +61,7 @@ html lang: "en", ->
           div id: "facebook_button", ->
             a href: "http://www.facebook.com/pages/BridgeMyPath/191731860857359", ->
               "Become a Fan"
-  script type: "text/javascript", src: "/javascripts/cufon-yui.js"
-  script type: "text/javascript", src: "/javascripts/Arial_Rounded_MT_Bold_400.font.js"
+  script type: "text/javascript", src: "javascripts/cufon-yui.js"
+  script type: "text/javascript", src: "javascripts/Arial_Rounded_MT_Bold_400.font.js"
   coffeescript ->
     Cufon.replace '.main_font', {hover: true}
