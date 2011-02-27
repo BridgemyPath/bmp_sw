@@ -27,3 +27,41 @@ div.content {
 div.footer {
   margin: 4em; 
 }
+div.page
+{
+background:url("../images/bridge-my-path-hompage.v1-reference.png");
+width: 1200px;
+height: 908px 
+}
+div.header {
+    background: url("../images/header-bg.png")  repeat-x scroll center top transparent;
+    position:relative;
+    border-bottom : #afcc49 5px solid;
+    top: 3px;
+}
+.logoheader{padding-left: 121px; padding-top:2px; }
+div.wrapper
+{
+width:990px;
+ }
+
+#menu{
+float:right;
+ }
+ #menu li {
+    float: left;
+    padding-left: 18px;
+    position: relative;
+    width: 99px;
+    z-index: 20;
+}
+#menu ul{
+list-style:none;}
+#menu ul a { 
+font-style: Arial-MT Rounded;
+font-size: 18px;
+color: #444446;
+text-decoration:none;
+}
+#menu ul a:hover {
+.login{float: right; }
