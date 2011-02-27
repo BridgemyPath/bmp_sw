@@ -365,3 +365,85 @@ p.login_link {
 #twitter_button a:hover, #facebook_button a: hover {
   background-position: bottom;
 }
+
+
+/* ----------------- CARLY'S EDITS --------------- */
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -150px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 150px; /* .push must be the same height as .footer */
+}
+
+
+.footer {
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  background-image:url(../images/footer-bg.png);
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.login .or {
+font-size: 12px;
+color: #9aacb0;
+font-style: italic;
+margin: 12px 14px 0 4px;
+line-height: 10px;
+}
+
+.login a.login-text{
+margin: 10px 3px 0 0;
+padding: 20px 0 10px 10px;
+background: url(../images/login-link-underline.png) no-repeat;
+background-position: 13px 38px;
+line-height: 27px;
+}
+
+.login a.login-text:hover{
+background-position: 100px 100px;
+}
+
+div.header {
+  background: url(../images/header-bg.png)  repeat-x scroll center top transparent;
+  height: 103px;
+  border: none;
+}
+
+
+a.nav { 
+  font-size: 18px;
+  color: #444446;
+  text-decoration:none;
+  margin: 0 6px 2px 6px;
+}
+
+.register {
+  background-image: url(../images/register-box-bg.png);
+  width: 493px;
+  height: 343px;
+  margin: 0px 14px 0 0;
+}
+
+.home{
+ background:url(../images/home-active.png) no-repeat;
+ background-position: 3px 10px;
+}
+
+a.nav span{ 
+  color: white;
+}
