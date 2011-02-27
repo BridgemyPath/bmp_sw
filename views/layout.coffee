@@ -12,6 +12,26 @@ html lang: "en", ->
     script type: "text/javascript", src: "//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"
   body ->
     div class: "wrapper", ->
+      div class: "header", ->
+        div class: "content", ->
+          a title: "bridge my path home", id: "logo", href: "/", ->
+            img class: "logoheader", width: "252", height: "86", src: "images/bridge-my-path-logo-final.png"
+          div class: "login", ->
+            a class: "register", href: "#"
+            a href: "#", ->
+              text "Login&nbsp;&nbsp;&nbsp;"
+            font class: "or", ->
+              "or&nbsp;&nbsp;&nbsp;" 
+      
+          div id: "menu", ->
+            a href: "#", class: "nav main_font", -># style: "background-image:url('../images/home-active.png');", ->
+              "Home"
+            a href: "#", class: "nav main_font", ->
+              "How it Works"
+            a href: "#", class: "nav main_font", ->
+              "About"
+            a href: "#", class: "nav main_font", ->
+              "Contact Us"
       text @body
       div class: "push"
       div class: "footer", ->

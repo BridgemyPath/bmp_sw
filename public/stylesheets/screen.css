@@ -99,6 +99,32 @@ div.content {
   margin: 0px auto;
 }
 
+/********** FORMS **********/
+
+label {
+  display: block;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+input {
+  border: none;
+  background: url("/images/input-field-bg.png") no-repeat;
+  height: 29px;
+  width: 170px;
+  margin-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+#count_me_in {
+   height: 39px;
+   width: 170px;
+   background: url("/images/count-me-in-button.png") no-repeat;
+   margin-left: 20px;
+   margin-top: 8px;
+}
+
 /********** PATHS **********/
 div.path {
   padding: 0px;
@@ -165,6 +191,31 @@ a.join_path {
 
 a.join_path:hover {
   background-position: bottom;
+}
+
+/********** REGISTER **********/
+.centered_content {
+  margin: 0px auto;
+  width: 493px;
+  padding-left: 50px;
+}
+
+.register {
+  background-image: url(/images/register-box-bg.png);
+  width: 493px;
+  height: 343px;
+  margin: 0px auto;
+}
+
+.register_inner {
+  margin: 20px;  
+}
+
+.box_heading {
+  color: #baccd0;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 /********** FOOTER **********/
