@@ -8,6 +8,7 @@
 body {
   color: #444446;
   font-family: arial, helvetica, sans-serif;
+  background-image:url("/images/background-pattern.png");
 }
 /*
 charcoal: #444446
@@ -48,6 +49,7 @@ div.path {
   padding: 0px;
   height: 140px;
   margin-bottom: 40px;
+  background-color: white;
 }
 
 .path_icon {

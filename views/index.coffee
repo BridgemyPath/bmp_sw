@@ -262,10 +262,11 @@ function mcEvilPopupClose(){
 script type: "text/javascript", ->
   text '''
 $(document).ready(function(){
-  $("#register").click(function() {
+  $(".join_path").click(function() {
     $('#mc_embed_signup a.mc_embed_close').show();
     setTimeout( function(){ $('#mc_embed_signup').fadeIn();} , 200);
     $('#mc_embed_signup a.mc_embed_close').click(function(){ mcEvilPopupClose();});
+    return false;
   });
 });
 '''
