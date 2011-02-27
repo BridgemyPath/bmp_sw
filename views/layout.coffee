@@ -17,7 +17,7 @@ html lang: "en", ->
           a title: "bridge my path home", id: "logo", href: "/", ->
             img class: "logoheader", width: "252", height: "86", src: "images/bridge-my-path-logo-final.png"
           div class: "login", ->
-            a class: "register", href: "#"
+            a class: "register", href: "/register.html"
             a href: "#", ->
               text "Login&nbsp;&nbsp;&nbsp;"
             font class: "or", ->

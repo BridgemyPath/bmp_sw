@@ -105,6 +105,7 @@ label {
   display: block;
   margin-left: 20px;
   font-size: 15px;
+  clear: left;
 }
 
 input {
@@ -207,8 +208,18 @@ a.join_path:hover {
   margin: 0px auto;
 }
 
-.register_inner {
-  margin: 20px;  
+.register_form {
+  margin: 0px;
+  float: left;
+  clear: left;
+}
+
+.register_quote {
+  float: left;
+  width: 200px;
+  padding-left: 20px;
+  color: #baccd0;
+  font-size: 18px;
 }
 
 .box_heading {
@@ -216,8 +227,20 @@ a.join_path:hover {
   font-size: 24px;
   padding-top: 20px;
   padding-bottom: 0px;
+  padding-left: 20px;
+  clear: both;
 }
 
+.quote {
+  color: #444446;
+}
+
+.register_divider {
+  background-image: url(/images/vertical-divider-register.png);
+  float: left;
+  margin: 10px;
+  margin-left: 50px;
+}
 /********** FOOTER **********/
 
 .push {
