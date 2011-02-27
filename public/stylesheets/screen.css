@@ -358,20 +358,6 @@ p.login_link {
 #twitter_button a:hover, #facebook_button a: hover {
   background-position: bottom;
 }
-#mce-error-response {
-    color: #c02c2c;
-    float: left;
-    font-size: 18px;
-    padding-left: 20px;
-    width: 200px;
-}
-#mce-success-response {
-    color: #82a700;
-    float: left;
-    font-size: 18px;
-    padding-left: 20px;
-    width: 200px;
-}
 
 
 /* ----------------- CARLY'S EDITS --------------- */
@@ -462,4 +448,134 @@ a.nav span{
   font-size: 18px;
   padding-left: 20px;
   width: 200px;
+}
+
+
+.footer_social a {
+  color: #81989d;
+  text-decoration: underline;
+}
+
+.footer_social a:hover {
+  color: #81989d;
+  text-decoration: none;
+}
+
+.footer_social a.tweet_text{
+	text-decoration: none;
+}
+
+.footer_social {
+  background: url(../images/twitter-bg.png) no-repeat;
+  float: right;  
+  font-size: 12px;
+  line-height: 16px;
+  width: 317px;
+  height: 100px;
+  padding: 8px 15px 5px 12px;
+  text-align: left;
+  margin-top: 25px;
+  font-style: italic;
+}
+
+.footer_social p{
+float: right;
+font-size: 11px;
+text-align: right;
+margin: 0 15px 0 0;
+font-style: normal;
+color: #bdc5c3;
+}
+
+
+#twitter_button a {
+  float: left;
+  width: 95px;
+  height: 24px;
+  background: url(../images/twitter-button.png) no-repeat;
+  color: #396078;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-indent: 28px;
+  line-height: 22px;
+  white-space: nowrap;
+  margin: 30px 0 0 30px;
+}
+
+#facebook_button a {
+  float: left;
+  width: 95px;
+  height: 24px;
+  background: url(../images/facebook-button.png) no-repeat;
+  color: #396078;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-indent: 28px;
+  line-height: 22px;
+  white-space: nowrap;
+  margin: 30px 0 0 0;
+}
+
+.footer_nav p{
+	text-align: left;
+	line-height: 18px;
+	margin: 30px 0 10px 0;
+}
+
+.footer_nav .nav{
+	text-align: left;
+	font-size: 14px;
+	float: left;
+	margin: 0;
+}
+
+.footer_nav .nav span{
+	color: #d9e4e6;
+	margin: 0 8px 0 8px;
+} 
+
+div.path {
+  padding: 0px;
+  height: 147px;
+  width: 910px;
+  margin-bottom: 20px;
+  background-image:url(../images/path-box.png);
+}
+
+
+.path_steps {
+  float: left;
+  clear: both;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+
+.path_population {
+  float: right;
+  clear: right;
+  font-style: italic;
+  padding-top: 22px;
+  margin-right: 22px;
+}
+
+a.join_path {
+  float: right;
+  clear: right;
+  width: 140px;
+  height: 40px;
+  margin-top: 8px;
+  margin-right: 20px;
+  background-image:url(../images/join-button.png);
+}
+
+.path_icon {
+  left: -15px;
+  position: relative;
+  top: -15px;
+  float: left;
+  padding-left: 20px;
 }

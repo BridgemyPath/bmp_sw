@@ -44,11 +44,11 @@ html lang: "en", ->
             learn from those that have been down that path. As you advance,
             help those that are following behind you."""
           a href: "/", class: "nav main_font", -># style: "background-image:url('../images/home-active.png');", ->
-            "Home |"
+            "Home <span>|</span>"
           a href: "#", class: "nav main_font", ->
-            "How it Works |"
+            "How it Works <span>|</span>"
           a href: "#", class: "nav main_font", ->
-            "About |"
+            "About <span>|</span>"
           a href: "#", class: "nav main_font", ->
             "Contact Us"
         div class: "footer_social", ->
