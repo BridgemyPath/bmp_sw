@@ -54,6 +54,7 @@ a.register {
   float: right;
   clear: right;
   background-image:url(../images/register-button.png);
+  margin: 0px 14px 0 0;
 }
 
 a.register:hover {
@@ -436,13 +437,6 @@ a.nav {
   color: #444446;
   text-decoration:none;
   margin: 0 6px 2px 6px;
-}
-
-.register {
-  background-image: url(../images/register-box-bg.png);
-  width: 493px;
-  height: 343px;
-  margin: 0px 14px 0 0;
 }
 
 .home{
