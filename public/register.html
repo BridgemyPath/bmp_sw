@@ -14,7 +14,7 @@
       <div class="header">
         <div class="content">
           <a title="bridge my path home" id="logo" href="/">
-            <img class="logoheader" width="252" height="86" src="images/bridge-my-path-logo-final.png" />
+            <img class="logoheader" width="252" height="86" src="images/bridge-my-path-logo-final.png" border="0" />
           </a>
           <div class="login">
             <a class="register" href="register.html"></a>
@@ -46,26 +46,31 @@ Login&nbsp;&nbsp;&nbsp;            </a>
   </h1>
 </div>
 <div class="register">
+  <form action="http://bridgemypath.us2.list-manage.com/subscribe/post?u=bfe805f5b62e541feb8c209cd&amp;id=cc76789e99" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+
   <div class="register_content">
     <h1 class="box_heading main_font">
       Register here:
     </h1>
   </div>
   <div class="register_form">
+
     <label for="first_name" class="main_font">
       First Name:
     </label>
-    <input type="text" name="first_name" />
+    <input type="text" name="FNAME" id="mce-FNAME"/>
     <label for="last_name" class="main_font">
       Last Name:
     </label>
-    <input type="text" name="last_name" />
+    <input type="text" name="LNAME" id="mce-LNAME">
     <label for="email" class="main_font">
       Email:
     </label>
-    <input type="text" name="email" />
-    <div id="count_me_in">
-      <a href=""></a>
+    <input type="text" name="EMAIL" id="mce-EMAIL"/>
+			
+    <div >
+	<input type="submit" value="" id="count_me_in" />
+	  
     </div>
   </div>
   <div class="register_divider">
@@ -74,6 +79,11 @@ Login&nbsp;&nbsp;&nbsp;            </a>
   <div class="register_quote main_font">
     <p><span class="quote">&ldquo;</span>Welcome to the Bridge My Path community.</p>
     <p>Over 58,000 people are ready to help you reach your goals.<span class="quote">&rdquo;</span></p>
+  </div>
+  <div id="mce-responses">
+			<div class="response" id="mce-error-response" style="display:none"></div>
+			<div class="response" id="mce-success-response" style="display:none"></div>
+		</div>
   </div>
 </div>
       <div class="push"></div>
@@ -123,4 +133,138 @@ help those that are following behind you.
   <script>;(function () {
     return Cufon.replace('.main_font');
   })();</script>
+  <script  type="text/javascript">
+try {
+    var jqueryLoaded=jQuery;
+    jqueryLoaded=true;
+} catch(err) {
+    var jqueryLoaded=false;
+}
+if (!jqueryLoaded) {
+    var head= document.getElementsByTagName('head')[0];
+    var script= document.createElement('script');
+    script.type= 'text/javascript';
+    script.src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+    head.appendChild(script);    
+}
+</script>
+<script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.form-n-validate.js"></script>
+
+<script type="text/javascript">
+var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';var err_style = '';
+try{
+    err_style = mc_custom_error_style;
+} catch(e){
+    err_style = 'margin: 1em 0 0 0; padding: 1em 0.5em 0.5em 0.5em; background: ERROR_BGCOLOR none repeat scroll 0% 0%; font-weight: bold; float: left; z-index: 1; width: 80%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: ERROR_COLOR;';
+}
+var head= document.getElementsByTagName('head')[0];
+var style= document.createElement('style');
+style.type= 'text/css';
+if (style.styleSheet) {
+  style.styleSheet.cssText = '.mce_inline_error {' + err_style + '}';
+} else {
+  style.appendChild(document.createTextNode('.mce_inline_error {' + err_style + '}'));
+}
+head.appendChild(style);
+$(document).ready( function($) {
+  var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
+  var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
+  options = { url: 'http://bridgemypath.us2.list-manage1.com/subscribe/post-json?u=bfe805f5b62e541feb8c209cd&id=cc76789e99&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+                beforeSubmit: function(){
+                    $('#mce_tmp_error_msg').remove();
+                    $('.datefield','#mc_embed_signup').each(
+                        function(){
+                            var txt = 'filled';
+                            var fields = new Array();
+                            var i = 0;
+                            $(':text', this).each(
+                                function(){
+                                    fields[i] = this;
+                                    i++;
+                                });
+                            $(':hidden', this).each(
+                                function(){
+                                	if ( fields[0].value=='MM' && fields[1].value=='DD' && fields[2].value=='YYYY' ){
+                                		this.value = '';
+									} else if ( fields[0].value=='' && fields[1].value=='' && fields[2].value=='' ){
+                                		this.value = '';
+									} else {
+	                                    this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
+	                                }
+                                });
+                        });
+                    return mce_validator.form();
+                }, 
+                success: mce_success_cb
+            };
+  $('#mc-embedded-subscribe-form').ajaxForm(options);
+
+});
+function mce_success_cb(resp){
+    $('#mce-success-response').hide();
+    $('#mce-error-response').hide();
+			$(".register_quote").hide();
+    if (resp.result=="success"){
+        $('#mce-'+resp.result+'-response').show();
+        $('#mce-'+resp.result+'-response').html(resp.msg);
+        $('#mc-embedded-subscribe-form').each(function(){
+            this.reset();
+    	});
+    } else {
+        var index = -1;
+        var msg;
+        try {
+            var parts = resp.msg.split(' - ',2);
+            if (parts[1]==undefined){
+                msg = resp.msg;
+            } else {
+                i = parseInt(parts[0]);
+                if (i.toString() == parts[0]){
+                    index = parts[0];
+                    msg = parts[1];
+                } else {
+                    index = -1;
+                    msg = resp.msg;
+                }
+            }
+        } catch(e){
+            index = -1;
+            msg = resp.msg;
+        }
+        try{
+            if (index== -1){
+                $('#mce-'+resp.result+'-response').show();
+                $('#mce-'+resp.result+'-response').html(msg);            
+            } else {
+                err_id = 'mce_tmp_error_msg';
+                html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
+                
+                var input_id = '#mc_embed_signup';
+                var f = $(input_id);
+                if (ftypes[index]=='address'){
+                    input_id = '#mce-'+fnames[index]+'-addr1';
+                    f = $(input_id).parent().parent().get(0);
+                } else if (ftypes[index]=='date'){
+                    input_id = '#mce-'+fnames[index]+'-month';
+                    f = $(input_id).parent().parent().get(0);
+                } else {
+                    input_id = '#mce-'+fnames[index];
+                    f = $().parent(input_id).get(0);
+                }
+                if (f){
+                    $(f).append(html);
+                    $(input_id).focus();
+                } else {
+                    $('#mce-'+resp.result+'-response').show();
+                    $('#mce-'+resp.result+'-response').html(msg);
+                }
+            }
+        } catch(e){
+            $('#mce-'+resp.result+'-response').show();
+            $('#mce-'+resp.result+'-response').html(msg);
+        }
+    }
+}
+</script>
+
 </html>

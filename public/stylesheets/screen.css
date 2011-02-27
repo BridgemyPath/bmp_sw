@@ -119,13 +119,14 @@ input {
 }
 
 #count_me_in {
-   height: 39px;
+   height: 40px;
    width: 170px;
-   background: url("../images/count-me-in-button.png") no-repeat;
-   margin-left: 20px;
-   margin-top: 8px;
+   background-image: url("../images/count-me-in-button.png") ;
+   float:right;  
 }
-
+#count_me_in:hover {
+  background-position: bottom;
+}
 /********** PATHS **********/
 div.path {
   padding: 0px;
@@ -308,4 +309,18 @@ a.join_path:hover {
 
 #twitter_button a:hover, #facebook_button a: hover {
   background-position: bottom;
+}
+#mce-error-response {
+    color: #c02c2c;
+    float: left;
+    font-size: 18px;
+    padding-left: 20px;
+    width: 200px;
+}
+#mce-success-response {
+    color: #82a700;
+    float: left;
+    font-size: 18px;
+    padding-left: 20px;
+    width: 200px;
 }
