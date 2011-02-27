@@ -17,7 +17,7 @@ charcoal: #444446
 green: #afcc49
 */
 h1 {
-  padding-bottom: 2em;
+  padding-bottom: 20px;
   font-size: 2em;
 }
 
@@ -48,16 +48,14 @@ a.register:hover {
  padding-top: 10px;
 }
  
-#menu a { 
+a.nav { 
   font-size: 18px;
   color: #444446;
   text-decoration:none;
 }
 
-#menu a:hover {
-  color: white;
-  background-image:url("../images/home-active.png");
-  background-color: #cac8db;
+a.nav:hover {
+  color: #6e6e6e;
 }
 
 .login{
