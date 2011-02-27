@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
 <!--Bridge My Path Version: 0.0.1-->
-    <link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" />
+    <link rel="stylesheet" href="stylesheets/screen.css" type="text/css" />
     <meta name="keywords" content="mentor guidance path bridge learn coach achieve" />
     <meta name="description" content="" />
     <meta name="copyright" content="2011, Marshall P. Hayes" />
@@ -21,15 +21,16 @@
           </a>
           <div class="login">
             <a class="register" href="/register.html"></a>
-            <a href="/login.html">
-Login&nbsp;&nbsp;&nbsp;            </a>
+            <a class="login-text" href="/login.html">
+              Login
+            </a>
             <font class="or">
-              or&nbsp;&nbsp;&nbsp;
+              or
             </font>
           </div>
-          <div id="menu">
+          <div id="menu" class="home">
             <a href="/" class="nav main_font">
-              Home
+              <span>Home</span>
             </a>
             <a href="#" class="nav main_font">
               How it Works
@@ -336,7 +337,9 @@ $(document).ready(function(){
   });
 });  </script>
 </div>
-      <div class="push"></div>
+      <div class="push">
+        &nbsp;
+      </div>
       <div class="footer">
         <div class="content">
           <div class="footer_nav">
@@ -381,6 +384,8 @@ help those that are following behind you.
   <script type="text/javascript" src="/javascripts/cufon-yui.js"></script>
   <script type="text/javascript" src="/javascripts/Arial_Rounded_MT_Bold_400.font.js"></script>
   <script>;(function () {
-    return Cufon.replace('.main_font');
+    return Cufon.replace('.main_font', {
+      hover: true
+    });
   })();</script>
 </html>

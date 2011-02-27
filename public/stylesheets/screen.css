@@ -294,7 +294,8 @@ a.login_link:hover {
 }
 
 p.login_link {
-  margin: 20px; 
+  padding-top: 15px;
+  margin: 0px; 
 }
 /********** FOOTER **********/
 
