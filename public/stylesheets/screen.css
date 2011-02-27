@@ -12,7 +12,7 @@ html {
 body {
   color: #444446;
   font-family: arial, helvetica, sans-serif;
-  background-image:url("/images/background-pattern.png");
+  background-image:url("../images/background-pattern.png");
   margin: 0px;
   padding: 0px;
   height: 100%;
@@ -110,7 +110,7 @@ label {
 
 input {
   border: none;
-  background: url("/images/input-field-bg.png") no-repeat;
+  background: url("../images/input-field-bg.png") no-repeat;
   height: 29px;
   width: 170px;
   margin-left: 20px;
@@ -121,7 +121,7 @@ input {
 #count_me_in {
    height: 39px;
    width: 170px;
-   background: url("/images/count-me-in-button.png") no-repeat;
+   background: url("../images/count-me-in-button.png") no-repeat;
    margin-left: 20px;
    margin-top: 8px;
 }
@@ -132,7 +132,7 @@ div.path {
   height: 147px;
   width: 910px;
   margin-bottom: 40px;
-  background-image:url("/images/path-box.png");
+  background-image:url("../images/path-box.png");
 }
 
 .path_icon {
@@ -187,7 +187,7 @@ a.join_path {
   height: 40px;
   margin-top: 8px;
   margin-right: 8px;
-  background-image:url("/images/join-button.png");
+  background-image:url("../images/join-button.png");
 }
 
 a.join_path:hover {
@@ -202,7 +202,7 @@ a.join_path:hover {
 }
 
 .register {
-  background-image: url(/images/register-box-bg.png);
+  background-image: url(../images/register-box-bg.png);
   width: 493px;
   height: 343px;
   margin: 0px auto;
@@ -236,7 +236,7 @@ a.join_path:hover {
 }
 
 .register_divider {
-  background-image: url(/images/vertical-divider-register.png);
+  background-image: url(../images/vertical-divider-register.png);
   float: left;
   margin: 10px;
   margin-left: 50px;
@@ -251,7 +251,7 @@ a.join_path:hover {
   height: 150px;
   width: 100%;
   text-align: center;
-  background-image:url("/images/footer-bg.png");
+  background-image:url("../images/footer-bg.png");
   margin: 0px;
   padding: 0px;
 }
@@ -264,7 +264,7 @@ a.join_path:hover {
 }
 
 .footer_social {
-  background: url("/images/tweet-bubble.png") no-repeat;
+  background: url("../images/tweet-bubble.png") no-repeat;
   float: right;  
   font-size: 12px;
   line-height: 16px;
