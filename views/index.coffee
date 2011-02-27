@@ -1,10 +1,10 @@
 h1 class: "main_font", ->
   "Choose your Path!"
 div class: "path rounded", ->
-  img class: "path_icon", src: "/images/book-icon.png", alt: "Write"
+  img class: "path_icon", src: "/images/book-icon.png", alt: "Writing"
   div class: "path_step_wrapper", ->
     h1 class: "path_name main_font", ->
-      "Write"
+      "Writing"
     img class: "path_steps", src: "/images/2-circle-bar.png", alt: "Path Nodes"
     p "&nbsp;"
     div class: "path_step_label first", ->
@@ -23,8 +23,51 @@ div class: "path rounded", ->
     text "1078 Participants"
   a class: "join_path", href: "/join"
 
-br
-
+div class: "path rounded", ->
+  img class: "path_icon", src: "/images/karate-icon.png", alt: "Karate"
+  div class: "path_step_wrapper", ->
+    h1 class: "path_name main_font", ->
+      "Karate"
+    img class: "path_steps", src: "/images/4-circle-bar.png", alt: "Path Nodes"
+    p "&nbsp;"
+    div class: "path_step_label first", ->
+      "White belt"
+    div class: "path_step_label", ->
+      "Yellow belt"
+    div class: "path_step_label", ->
+      "Blue belt"
+    div class: "path_step_label", ->
+      "Red belt"
+    div class: "path_step_label", ->
+      "Brown belt"
+    div class: "path_step_label", ->
+      "Black belt"
+  div class: "path_population", ->
+    text "944 Participants"
+  a class: "join_path", href: "/join"
+  
+div class: "path rounded", ->
+  img class: "path_icon", src: "/images/blueprint-icon.png", alt: "Engineering"
+  div class: "path_step_wrapper", ->
+    h1 class: "path_name main_font", ->
+      "Engineering"
+    img class: "path_steps", src: "/images/4-circle-bar.png", alt: "Path Nodes"
+    p "&nbsp;"
+    div class: "path_step_label first", ->
+      "New grad"
+    div class: "path_step_label", ->
+      "Intern"
+    div class: "path_step_label", ->
+      "Junior Engineer"
+    div class: "path_step_label", ->
+      "Staff Engineer"
+    div class: "path_step_label", ->
+      "Senior Engineer"
+    div class: "path_step_label", ->
+      "Fellow"
+  div class: "path_population", ->
+    text "852 Participants"
+  a class: "join_path", href: "/join"
 ########## MAILCHIMP ##########
 text '''    <!--[if IE]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
