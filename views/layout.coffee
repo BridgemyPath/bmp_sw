@@ -8,7 +8,8 @@ html lang: "en", ->
     meta name: "keywords", content: "mentor guidance path bridge learn coach achieve"
     meta name: "description", content: ""
     meta name: "copyright", content: "2011, Marshall P. Hayes"
-    title "#{@title} | #{appName}" if @title?
+    title ->
+      "#{pageTitle} | #{appName}"
     script type: "text/javascript", src: "//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"
   body ->
     div class: "wrapper", ->
@@ -18,13 +19,13 @@ html lang: "en", ->
             img class: "logoheader", width: "252", height: "86", src: "images/bridge-my-path-logo-final.png"
           div class: "login", ->
             a class: "register", href: "/register.html"
-            a href: "#", ->
+            a href: "/login.html", ->
               text "Login&nbsp;&nbsp;&nbsp;"
             font class: "or", ->
               "or&nbsp;&nbsp;&nbsp;" 
       
           div id: "menu", ->
-            a href: "#", class: "nav main_font", -># style: "background-image:url('../images/home-active.png');", ->
+            a href: "/", class: "nav main_font", -># style: "background-image:url('../images/home-active.png');", ->
               "Home"
             a href: "#", class: "nav main_font", ->
               "How it Works"
@@ -41,7 +42,7 @@ html lang: "en", ->
               """Where are you going? What path are you traveling? Benefit and 
               learn from those that have been down that path. As you advance,
               help those that are following behind you."""
-            a href: "#", class: "nav main_font", -># style: "background-image:url('../images/home-active.png');", ->
+            a href: "/", class: "nav main_font", -># style: "background-image:url('../images/home-active.png');", ->
               "Home |"
             a href: "#", class: "nav main_font", ->
               "How it Works |"
