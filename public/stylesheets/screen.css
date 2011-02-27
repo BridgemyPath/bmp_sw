@@ -1,6 +1,6 @@
-* {
+body {
   color: #444446;
-  font-family: sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 /*
 charcoal: #444446
@@ -16,7 +16,8 @@ table.form {
 }
 
 ul {
-  list-style-type: circle; 
+  list-style-type: circle;
+  margin: 1em;
 }
 
 div.content {

@@ -1,4 +1,3 @@
-img src: "/images/bridge-my-path-logo-final.png", alt: "Bridge My Path"
 h1 "Sign Up for Bridge My Path"
 table class: "form", ->
   tr ->
